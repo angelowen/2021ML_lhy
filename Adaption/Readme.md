@@ -1,7 +1,8 @@
 # Domain adaption
-`python view_data.py` -> watch domain image & target image
-`python main.py` -> training & inference
+
 # Training Statistics
+* `python view_data.py` -> watch domain image & target image
+* `python main.py` -> training & inference
 * lambda 根據[論文](https://arxiv.org/pdf/1505.07818.pdf) page.21調整
 * epochs = 2000
 
