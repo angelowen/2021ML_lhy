@@ -10,7 +10,9 @@
 * pass boss baseline
 `Result/`
 # Todo
-recurrent training
+1. recurrent training
+2. 將原domain上的圖像做 `style transfer` 後以三個模型[DANN,MCD,MSDA]所預測出target domain中相同的答案為 label 當做target domain 的 Pseudo label,並在之後對其做Semi-Supervised
+Learning
 # Reference
 * https://speech.ee.ntu.edu.tw/~hylee/ml/ml2021-course-data/hw/HW11/HW11.pdf
 * https://drive.google.com/file/d/11uNDcz7_eMS8dMQxvnWsbrdguu9k4c-c/view
